@@ -1,0 +1,6 @@
+com\perso\customvalidation\exception\ResponseStatus.class
+com\perso\customvalidation\controller\UserController.class
+com\perso\customvalidation\repository\UserRepository.class
+com\perso\customvalidation\SpringbootcustomvalidationApplication.class
+com\perso\customvalidation\domain\User.class
+com\perso\customvalidation\exception\validations.class
