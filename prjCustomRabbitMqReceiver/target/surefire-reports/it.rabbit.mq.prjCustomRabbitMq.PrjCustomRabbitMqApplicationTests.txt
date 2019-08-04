@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: it.rabbit.mq.prjCustomRabbitMq.PrjCustomRabbitMqApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.623 s <<< FAILURE! - in it.rabbit.mq.prjCustomRabbitMq.PrjCustomRabbitMqApplicationTests
+initializationError(it.rabbit.mq.prjCustomRabbitMq.PrjCustomRabbitMqApplicationTests)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/core/ErrorCoded
+Caused by: java.lang.ClassNotFoundException: org.springframework.core.ErrorCoded
+

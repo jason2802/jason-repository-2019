@@ -1,0 +1,42 @@
+server:
+  port: 8181
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/webservicedb?autoReconnect=true&verifyServerCertificate=false&useSSL=false
+    username: root
+    password: password
+    tomcat:
+      max-wait: 20000
+      max-active: 50
+      max-idle: 20
+      min-idle: 15
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        id:
+          new_generator_mappings: false
+        format_sql: true
+javainuse:
+  rabbitmq:
+    exchange: javainuse.exchange
+    queue: javainuse.queue
+    routingkey: javainuse.routingkey
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+      springframework:
+        web: DEBUG
+        boot: DEBUG

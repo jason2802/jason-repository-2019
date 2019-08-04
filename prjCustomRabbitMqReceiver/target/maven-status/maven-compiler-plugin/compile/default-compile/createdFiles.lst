@@ -1,0 +1,5 @@
+it\rabbit\mq\prjCustomRabbitMq\controller\RabbitMQWebController.class
+it\rabbit\mq\prjCustomRabbitMq\domain\Employee.class
+it\rabbit\mq\prjCustomRabbitMq\PrjCustomRabbitMqApplication.class
+it\rabbit\mq\prjCustomRabbitMq\config\RabbitMqConfig.class
+it\rabbit\mq\prjCustomRabbitMq\service\RabbitMQSender.class
