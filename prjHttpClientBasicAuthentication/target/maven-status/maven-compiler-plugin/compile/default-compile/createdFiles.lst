@@ -1,0 +1,15 @@
+it\nexi\mt\assets\socket\service\SocketUtils.class
+it\nexi\mt\assets\socket\client\ApplicationClientCopy.class
+it\nexi\mt\assets\socket\model\Message.class
+it\nexi\mt\assets\socket\model\TIMAutomaticaBean.class
+it\nexi\mt\assets\socket\service\RicaricheException.class
+it\nexi\mt\assets\socket\model\RicaricaBean.class
+it\nexi\mt\assets\socket\service\RecException.class
+it\nexi\mt\assets\socket\trasform\Transformer.class
+it\nexi\mt\assets\socket\service\RicaricaService.class
+it\nexi\mt\assets\socket\trasform\TransformerImpl.class
+it\nexi\mt\assets\socket\service\RicaricaServiceImpl.class
+it\nexi\mt\assets\socket\service\SocketXmlParser_old.class
+it\nexi\mt\assets\socket\client\ApplicationClient.class
+it\nexi\mt\assets\socket\service\RicaricaMessages.class
+it\nexi\mt\assets\socket\service\Transaction.class

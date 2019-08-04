@@ -1,0 +1,102 @@
+server:
+  contextPath: /
+  port: 8787
+spring:
+  application:
+    name: mtt-socket-asset
+  jackson:
+    date-format: it.nexi.mt.common.dateformat.RFC3339DateFormat
+    serialization:
+        WRITE_DATES_AS_TIMESTAMPS: false
+  cloud:
+    config:
+      discovery:
+        enabled: false
+eureka:
+  client:
+    enabled: falsee
+nexi:
+  context:
+    authorization:
+      applications-and-channels-enabled:
+        CH:
+          - WEB
+          - MOB
+        DB:
+          - WEB
+          - MOB
+      companies-enabled:
+        - mt-company: NEXI
+          mt-company-group: NEXI
+          mt-partner: NEXI
+        - mt-company: DB
+          mt-company-group: DB
+          mt-partner: DB
+  socket:
+    connections:
+      DEFAULT_CONNECTION:
+        address: localhost
+        host: localhost
+        port: 20333
+        local-addr:
+        local-port:
+    proxies:
+      DEFAULT_PROXY:
+        timeout: 15000
+        use-proxy: 0
+        proxy-host:
+        proxy-port:
+        proxy-username:
+        proxy-password:
+    servers:
+      DB_DB_DB:
+        server-connection: DEFAULT_CONNECTION
+        proxy: DEFAULT_PROXY
+      NEXI_NEXI_NEXI:
+        server-connection: DEFAULT_CONNECTION
+        proxy: DEFAULT_PROXY
+    routes:
+      - route-id:
+          partner: NEXI
+          company: NEXI
+          company-group: NEXI
+        server-name: NEXI_NEXI_NEXI
+      - route-id:
+          partner: DB
+          company: DB
+          company-group: DB
+        server-name: DB_DB_DB
+    error-message:
+      '00.000': Operation performed - Operazione eseguita 
+      '01.001': Host unreachable - Host non raggiungibile 
+      '01.002': First Recharge - Prima Ricarica
+      '01.003': Monthly limit exceeded - Limite mensile superato
+      '01.004': User limit for card exceeded - Limite utenze per carta superato
+      '01.005': Connection failed - Connessione non riuscita
+      '01.006': Operation denied - Operazione negata
+      '01.007': Timeout
+      '01.008': Format error - Errore di formato
+      '01.009': Invalid operator - Esercente non valido
+      '01.010': Acquirer not found - Acquirer non trovato
+      '01.011': Invalid service - Servizio non valido
+      '02.002': Expired card - Carta scaduta
+      '02.003': Operation denied due to incorrect use - Oper. negata per utenza non corretta
+      '02.004': Incomplete personal data - Dati anagrafici incompleti
+      '02.005': Operation denied due to internal operator causes - Oper. negata per cause interne gestore 
+      '02.006': Operation denied due to technical causes manager - Oper. negata per cause tecniche gestore
+      '02.007': Invalid amount - Importo non valido
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+    org.hibernate: ERROR
+    it.nexi: DEBUG
+    org.springframework.transaction.interceptor: TRACE
+    com:
+      netflix: INFO
+      springframework: INFO
+    org:
+      mybatis: DEBUG
+    JAXWS-LOGGING: INFO
+#  config: file:${HOME}/app/${spring.application.name}/logback-spring.xml
+#  file: ${spring.application.name}

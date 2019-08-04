@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: test-to-be-removed
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: a84s
+Implementation-Vendor-Id: it.nexi.mt.assets
+Build-Jdk: 1.8.0_211
+Created-By: Maven Integration for Eclipse
+
