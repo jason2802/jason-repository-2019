@@ -1,0 +1,19 @@
+server:
+  port: 8383
+jenkins:
+  base-folder: C:\\dev\perso\jenkinsfileprojects
+  searched-file: Jenkinsfile
+  word-replace-from: https://bitbucket.org/digitalicbpi/
+  word-replace-to:
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+      springframework:
+        web: DEBUG
+        boot: DEBUG
