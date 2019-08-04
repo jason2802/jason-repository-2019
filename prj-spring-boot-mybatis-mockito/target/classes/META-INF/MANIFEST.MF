@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: prj-spring-boot-mybatis-mockito
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: a84s
+Implementation-Vendor-Id: com.perso
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/prj-spring-boot-mybatis-mockito
+Created-By: Maven Integration for Eclipse
+

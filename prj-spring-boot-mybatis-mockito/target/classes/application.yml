@@ -1,0 +1,28 @@
+server:
+  port: 8181
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
+      springframework:
+        web: DEBUG
+        boot: DEBUG
+
+spring:
+  #Database Connection properties
+  datasource:
+    url: jdbc:mysql://localhost/godamstudio
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  # Mapper.xml location
+  mapperLocations: classpath*:**/mappers/*.xml
+  # Model's location that used by mapper.XML
+  typeAliasesPackage: com.perso.domain
