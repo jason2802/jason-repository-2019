@@ -1,0 +1,12 @@
+https://beginnersbook.com/2013/04/java-static-dynamic-binding/
+
+
+Static Binding vs Dynamic Binding ( the two type of UPCASTING ) 
+
+Lets discuss the difference between static and dynamic binding in Java.
+
+Static binding happens at compile-time while dynamic binding happens at runtime.
+Binding of private, static and final methods always happen at compile time since these methods cannot be overridden. 
+When the method overriding is actually happening and 
+the reference of parent type is assigned to the object of child class type then such binding is resolved during runtime.
+The binding of overloaded methods is static and the binding of overridden methods is dynamic.
