@@ -1,0 +1,10 @@
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\model\Note.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\aspect\TimeTracking.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\controller\IndexController.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\repository\NoteRepository.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\exception\ResourceNotFoundException.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\controller\NoteController.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\EasyNotesApplication.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\aspect\CommonJoinPointConfiguration.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\aspect\MyCustomConfigurationAspect.java
+C:\dev\nexi\easy-notes-aop-v4\src\main\java\com\example\easynotes\aspect\UserAccess.java
