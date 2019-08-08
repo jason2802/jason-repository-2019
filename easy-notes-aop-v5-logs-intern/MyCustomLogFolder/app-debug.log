@@ -1,0 +1,8 @@
+2019-08-08T16:46:31.382+0200 DEBUG Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2019-08-08T16:47:09.688+0200 DEBUG Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE
+2019-08-08T16:49:08.198+0200 DEBUG  +++++++++ get Inside before getUserAccess ------------ 
+2019-08-08T16:49:08.199+0200 DEBUG  +++++++++ get Outside before getUserAccess ------------ 
+2019-08-08T16:49:13.830+0200 DEBUG  +++++++++ get Inside before getUserAccess ------------ 
+2019-08-08T16:49:13.831+0200 DEBUG  +++++++++ get Outside before getUserAccess ------------ 
+2019-08-08T16:49:16.310+0200 DEBUG  ---------- Inside around ------------ 
+2019-08-08T16:49:16.430+0200 DEBUG   ---------- Time taken by execution(List com.example.easynotes.controller.NoteController.getAllNotes()) is 118 

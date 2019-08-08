@@ -1,0 +1,10 @@
+com\example\easynotes\aspect\TimeTracking.class
+com\example\easynotes\repository\NoteRepository.class
+com\example\easynotes\aspect\CommonJoinPointConfiguration.class
+com\example\easynotes\exception\ResourceNotFoundException.class
+com\example\easynotes\controller\NoteController.class
+com\example\easynotes\aspect\MyCustomConfigurationAspect.class
+com\example\easynotes\model\Note.class
+com\example\easynotes\controller\IndexController.class
+com\example\easynotes\aspect\UserAccess.class
+com\example\easynotes\EasyNotesApplication.class

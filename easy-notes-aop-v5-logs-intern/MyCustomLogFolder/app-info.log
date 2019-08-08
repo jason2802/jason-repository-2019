@@ -1,0 +1,6 @@
+2019-08-08T16:46:31.380+0200 INFO Starting EasyNotesApplicationTests on ITPC009552 with PID 26396 (started by a84s in C:\dev\nexi\easy-notes-aop-v5-logs-intern)
+2019-08-08T16:46:31.382+0200 INFO No active profile set, falling back to default profiles: default
+2019-08-08T16:46:37.389+0200 INFO Started EasyNotesApplicationTests in 6.4 seconds (JVM running for 7.728)
+2019-08-08T16:47:09.686+0200 INFO Starting EasyNotesApplication on ITPC009552 with PID 9004 (C:\dev\nexi\easy-notes-aop-v5-logs-intern\target\classes started by a84s in C:\dev\nexi\easy-notes-aop-v5-logs-intern)
+2019-08-08T16:47:09.689+0200 INFO No active profile set, falling back to default profiles: default
+2019-08-08T16:47:13.532+0200 INFO Started EasyNotesApplication in 4.29 seconds (JVM running for 6.313)

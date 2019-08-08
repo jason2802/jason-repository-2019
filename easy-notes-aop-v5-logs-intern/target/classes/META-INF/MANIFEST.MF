@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: easy-notes-aop-v5-logs-intern
+Implementation-Version: 1.0.0
+Built-By: a84s
+Implementation-Vendor-Id: com.example
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/easy-notes-aop-v5-logs-intern
+Created-By: Maven Integration for Eclipse
+
