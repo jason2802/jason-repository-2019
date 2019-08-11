@@ -4,17 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example.aop</groupId>
-	<artifactId>prj-aop-v4-Logging-and-Authentication-Strategy-slf4j</artifactId>
+	<artifactId>prj-aop-v5-ExceptionHandler-Strategy</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>prj-aop-v4-Logging-and-Authentication-Strategy-slf4j</name>
+	<name>prj-aop-v5-ExceptionHandler-Strategy</name>
 	<description>Rest API - How to use AOP to :
 		1- Log entries and exit to and from method
 		2- Authenticated user credential
+		3- LOGS : How to use SLF4J to :
+            3.1- send log to console o file appender
+		4- ControllerAdvice and ExceptionHandler
 
-LOGS : How to use SLF4J to :
-            1- send log to console o file appender</description>
+	</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
