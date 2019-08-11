@@ -1,0 +1,4 @@
+710  [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 3936 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+711  [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+713  [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+5143 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.836 seconds (JVM running for 5.389) 

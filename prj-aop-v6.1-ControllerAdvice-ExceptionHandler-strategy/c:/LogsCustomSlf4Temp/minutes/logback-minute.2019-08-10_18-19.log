@@ -1,0 +1,3 @@
+124492 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Inside BEFORE getUserAccess ------------  
+124495 [http-nio-8181-exec-1] DEBUG c.e.a.a.MyCustomConfigurationAspect -  +++++++++ get Outside BEFORE getUserAccess ------------  
+124503 [http-nio-8181-exec-1] INFO  c.e.aop.controller.NoteController -  *** createNote  

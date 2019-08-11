@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfb9d401-a1f4-455b-b172-fb2f08932883" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c:/LogsCustomSlf4Temp/minutes/logback-minute.2019-08-10_18-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c:/LogsCustomSlf4Temp/minutes/logback-minute.2019-08-10_18-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c:/LogsCustomSlf4Temp/minutes/logback-minute.2019-08-10_18-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj-aop-v4-Logging-and-Authentication-Strategy-slf4j (2).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prj-aop-v4-Logging-and-Authentication-Strategy-slf4j (3).iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCustomLogFolder/logback.log" beforeDir="false" afterPath="$PROJECT_DIR$/MyCustomLogFolder/logback.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.example.aop/prj-aop-v4-Logging-and-Authentication-Strategy-slf4j/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.example.aop/prj-aop-v4-Logging-and-Authentication-Strategy-slf4j/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/UserNotesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/UserNotesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/Authentification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/Authentification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/AuthentificationAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/AuthentificationAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/CommonJoinPointConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/CommonJoinPointConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/Logging.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/Logging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/LoggingAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/LoggingAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/MyCustomConfigurationAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/MyCustomConfigurationAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/TimeTracking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/TimeTracking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/UserAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/aspect/UserAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/common/ContentUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/common/ContentUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/AuthorizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/AuthorizationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/CommentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/CommentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/NoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/exception/ContentNotAllowedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/exception/ContentNotAllowedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/exception/ResourceNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/exception/UserNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/ApiError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/ApiError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/Containable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/Containable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/repository/NoteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/repository/NoteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/repository/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/repository/UserRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/service/AuthorizationImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/service/AuthorizationImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/aop/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/aop/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/aop/UserNotesApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/aop/UserNotesApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="$PROJECT_DIR$" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PEgWzjZBnSBXpzg9EvnHjQfRjC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="UserNotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.aop.UserNotesApplication" />
+      <module name="prj-aop-v5-ExceptionHandler-strategy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserNotesApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfb9d401-a1f4-455b-b172-fb2f08932883" name="Default Changelist" comment="" />
+      <created>1565444705935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565444705935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

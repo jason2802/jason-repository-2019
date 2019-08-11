@@ -1,4 +1,57 @@
-00:01:38.908 [http-nio-8181-exec-5] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.PostController : create( ) - Input Arguments : ["murder",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 
-00:02:18.895 [http-nio-8181-exec-5] INFO  c.example.aop.aspect.LoggingAdvice -  - method executed: class com.example.aop.controller.PostController : create( ) - Response : ["murder",{"id":1,"owner":{"id":1,"name":"nome","email":"email","username":"username","publications":null,"createdAt":null,"updatedAt":null},"content":"content"}] 
-00:12:42.151 [http-nio-8181-exec-2] INFO  c.example.aop.aspect.LoggingAdvice -  - method invoked: class com.example.aop.controller.UserController : get( ) - Input Arguments : ["josueF"] 
-00:20:15.246 [http-nio-8181-exec-2] ERROR c.e.a.e.GlobalExceptionHandler - Handling UserNotFoundException due to User 'josueF' not found 
+01:02:50.885 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 4996 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+01:02:50.891 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+01:02:50.893 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+01:04:17.498 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5010 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+01:04:17.500 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+01:04:17.502 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+01:04:22.047 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.925 seconds (JVM running for 5.434) 
+01:41:33.150 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5098 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.1-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+01:41:33.152 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+01:41:33.154 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+01:41:37.603 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.859 seconds (JVM running for 5.368) 
+01:45:18.945 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5116 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.1-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+01:45:18.946 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+01:45:18.948 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+01:45:23.137 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.557 seconds (JVM running for 5.037) 
+17:56:13.412 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5772 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.1-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+17:56:13.414 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+17:56:13.416 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+17:56:17.898 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.852 seconds (JVM running for 5.381) 
+18:08:55.741 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5831 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+18:08:55.743 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:08:55.745 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:09:01.454 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 6.194 seconds (JVM running for 7.387) 
+18:18:09.090 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5855 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+18:18:09.092 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:18:09.094 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:18:14.408 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.837 seconds (JVM running for 6.506) 
+18:20:40.162 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5878 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+18:20:40.164 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:20:40.167 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:20:44.716 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.064 seconds (JVM running for 5.602) 
+18:29:03.331 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5903 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+18:29:03.333 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:29:03.334 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:29:07.577 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 4.72 seconds (JVM running for 5.221) 
+18:29:32.784 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 5913 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+18:29:32.786 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+18:29:32.788 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+18:29:37.855 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.571 seconds (JVM running for 6.215) 
+19:10:57.249 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 6210 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+19:10:57.250 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+19:10:57.252 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+19:11:02.435 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.684 seconds (JVM running for 6.366) 
+19:26:25.108 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 6229 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+19:26:25.110 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+19:26:25.112 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+19:26:30.328 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.773 seconds (JVM running for 6.41) 
+19:32:46.137 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 6259 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+19:32:46.138 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+19:32:46.140 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+19:32:51.253 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.745 seconds (JVM running for 6.51) 
+19:33:19.277 [http-nio-8282-exec-1] ERROR c.e.a.e.GlobalExceptionHandler - Handling ApiRequestException due to Oops cannot get all students 
+20:04:51.287 [main] INFO  c.example.aop.UserNotesApplication - Starting UserNotesApplication on JOSUEs-MBP with PID 6585 (/Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v6.2-ControllerAdvice-ExceptionHandler-strategy/target/classes started by josuefako in /Users/josuefako/IdeaProjects/jason-repository-2019/prj-aop-v5-ExceptionHandler-strategy) 
+20:04:51.289 [main] DEBUG c.example.aop.UserNotesApplication - Running with Spring Boot v2.0.0.RELEASE, Spring v5.0.4.RELEASE 
+20:04:51.291 [main] INFO  c.example.aop.UserNotesApplication - No active profile set, falling back to default profiles: default 
+20:04:55.856 [main] INFO  c.example.aop.UserNotesApplication - Started UserNotesApplication in 5.008 seconds (JVM running for 5.716) 
+20:05:33.582 [http-nio-8282-exec-1] ERROR c.e.a.e.GlobalExceptionHandler - Handling ApiRequestException due to Oops cannot get all students 
